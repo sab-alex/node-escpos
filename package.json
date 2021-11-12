@@ -1,7 +1,26 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "escpos",
+  "version": "2.9.9",
+  "description": "ESC/POS Printer driver for nodejs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/node-escpos.git"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "homepage": "https://github.com/song940/node-escpos#readme",
+  "dependencies": {
+    "iconv-lite": "*",
+    "mutable-buffer": "*"
+  },
+  "optionalDependencies": {
+    "get-pixels": "*",
+    "serialport": "*",
+    "qr-image": "*",
+    "usb": "git+ssh://git@gitlab.jnpstr.com/PosterDesktop/node-usb.git#v1.6.2"
+  },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "mocha": "*"
   }
 }
