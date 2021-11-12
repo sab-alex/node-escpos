@@ -17,7 +17,8 @@
   "optionalDependencies": {
     "get-pixels": "*",
     "serialport": "*",
-    "qr-image": "*"
+    "qr-image": "*",
+    "usb": "https://github.com/sab-alex/node-usb.git#b101e2b"
   },
   "devDependencies": {
     "mocha": "*"
