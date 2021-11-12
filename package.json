@@ -18,7 +18,7 @@
     "get-pixels": "*",
     "serialport": "*",
     "qr-image": "*",
-    "usb": "https://github.com/sab-alex/node-usb.git#b101e2b"
+    "usb": "https://github.com/sab-alex/node-usb.git#v1.6.2"
   },
   "devDependencies": {
     "mocha": "*"
